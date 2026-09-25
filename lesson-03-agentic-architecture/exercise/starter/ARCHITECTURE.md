@@ -83,12 +83,12 @@ INSTRUCTIONS:
 
 <!-- TODO: Complete this table with your agent designs -->
 
-| Agent | Responsibility | Tools | Model | Parallel? |
-|-------|---------------|-------|-------|-----------|
-| TODO | TODO | TODO | TODO | TODO |
-| TODO | TODO | TODO | TODO | TODO |
-| TODO | TODO | TODO | TODO | TODO |
-| TODO | TODO | TODO | TODO | TODO |
+| Agent | Responsibility | Tools | Model |
+|-------|---------------|-------|-------|
+| Orchestrator | Coordinates agents, compiles report | Task | Sonnet |
+| Web Researcher | Company website, products, tech | WebSearch, WebFetch | Haiku |
+| People Finder | Leadership, org structure | WebSearch, WebFetch | Haiku |
+| News Analyst | Funding, press, acquisitions | WebSearch, Read | Sonnet |
 
 <!--
 HINTS:
